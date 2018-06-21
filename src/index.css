@@ -3,3 +3,42 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.chat_list {
+  width: 25rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid lightgray;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5%;
+}
+
+.chat-list__item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 6rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.chat-list-column {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.chat-list-column--image img {
+  border-radius: 50%;
+  width: 5rem;
+}
+
+.chat-list-body__text, .chat-list-body__name {
+  display: flex;
+}
+
+.chat-list-column--body {
+  justify-self: center;
+  width: 10rem;
+}
